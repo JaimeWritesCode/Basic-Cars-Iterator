@@ -22,6 +22,10 @@ public class Main
 	    System.out.println("Previous: " + it.previous());
 	    System.out.println("Previous: " + it.previous());
 	    System.out.println("Previous: " + it.previous());
+
+		  System.out.println("Last item in list: " + cars.getLast());
+	    System.out.println("First item in list: " + cars.getFirst());
+	    
 	    
 	    while(it.hasNext()){
 	        String car = it.next(); //Used to make using the if statement easier and checks for the remaining "next" contents
